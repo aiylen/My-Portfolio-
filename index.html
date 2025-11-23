@@ -82,6 +82,14 @@
     <p>© 2025 Muhammad Asad | All Rights Reserved</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+  </script>
 </body>
 </html>
